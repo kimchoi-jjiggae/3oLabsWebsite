@@ -37,7 +37,7 @@ body {
 
 .backgroundbox1 {
 	background-image: url("../Backdrop_3.jpeg");
-    background-repeat: round;
+background-size: cover;
     padding: 3%;
 
 }
