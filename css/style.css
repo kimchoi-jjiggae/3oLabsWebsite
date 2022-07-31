@@ -60,6 +60,9 @@ body {
     transition-duration: 0.65s;
 }
 
+.navbar-toggler-icon {
+  background-image: url(“toggler.svg");
+}
 
 #nav-text {
 	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
