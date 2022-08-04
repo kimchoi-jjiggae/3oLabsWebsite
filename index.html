@@ -61,25 +61,23 @@
       </nav>
 
       <!-- Box 1 Content -->
-      <div class="box1">
-         <div class = "headline">
+      <div class="whitefontbox expand-section">
             <p class= "small-text"> 3.O LABS </p>
             <p id = "slogan">Web 3, Made Accessible </p>
             <p id = learn-more> Learn More ↓ </p>
-        </div>
-        
+               
       </div>
   </div>
 
   <!-- Second content Block -->
- <div class = "box2">
+ <div class = "paddedwhitebox">
     <div class = "row">
           <div class = "col-md-6 d-flex justify-content-center">
             <img src="box2img.png" class="box2-img" >
           </div>
           <div class = "col-md-6">
             <div class ="main-text" id = "box2-text">
-              <p id = "box2-header" class = "smallheadertext">  Building Web3, Together </p>
+              <p class = "smallheadertext">  Building Web3, Together </p>
               <p > 3.O Labs is built on the belief that Web3 should be accessible to everyone. 
 
               <br> 
@@ -90,46 +88,50 @@
               <br> 
 
               At 3.O labs, our mission is to shape and share the development of this wave of cutting-edge movement to improve lives at a global scale. </p>
+              <a href = "https://www.3olabs.io"><button class = "HomeButtons" type="button" >Who We Are</button></a>
+
             </div>
           </div>
         </div>
-      <!-- </div> -->
   </div>
 
   <!-- Third box of info -->
   <div class = homepage_background>
-    <div class = "box3">
+    <div class = "whitefontbox">
         <div class = "main-text text-align-center">
           <p> What We Do </p>
           <p class= "headertext"> Our Core Workstreams </p>
         </div>
             <div class = "row">
-              <!-- <div class = "featuresbox"> -->
                   <div class = "col-md-4 d-flex justify-content-center text-center" >
-                    <div class = "main-text">
-                      <img class = "box3-featureimg" src = "featureimg1.png">
-                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus tincidunt turpis sodales venenatis. </p>
+                    <div >
+                      <img class = "featureimg" src = "featureimg1.png">
+                      <p id = featureheader> Part 1 </p>
+                      <p class = "main-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus tincidunt turpis sodales venenatis. </p>
                     </div>
                   </div>
                 <!-- </div> -->
-                  <div class = "col-md-4 d-flex justify-content-center text-center" class = "box3feature">
-                    <div class = "main-text box3feature">
+                  <div class = "col-md-4 d-flex justify-content-center text-center">
+                    <div class = "main-text featurecontent">
+                      <img src = "featureimg2.png" class = "featureimg" >
+                       <p id = featureheader> Part 1 </p>
 
-                      <img src = "featureimg2.png" class = "box3-featureimg" >
                       <p> bLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus tincidunt turpis sodales venenatis. Vivamus ipsum odio, pharetra at hendrerit sit amet, sagittis ac elit. Etiam in ligula a le </p>
                     </div>
                   </div>
-                  <div class = "col-md-4 d-flex justify-content-center text-center" class = "box3feature">
-                    <div class = "box3feature">
+                  <div class = "col-md-4 d-flex justify-content-center text-center">
+                    <div class = "featurecontent">
 
-                      <img src = "featureimg3.png" class = "box3-featureimg" >
+                      <img src = "featureimg3.png" class = "featureimg" >
+                       <p id = featureheader> Part 1 </p>
+
                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus tincidunt turpis sodales venenatis. Vivamus ipsum odio, pharetra at hendrerit sit amet, sagittis ac elit. . </p>
                     </div>
                 </div>
               </div>
     
-          <div class = "JoinButtonBox">
-            <button class = "HomeButtons" id = "joinUsButton" type="button">Join Us</button>
+          <div class = "CenteredButtonBox">
+            <a href = "https://www.3olabs.io"><button class = "HomeButtons" type="button" >Join Us</button></a>
           </div>
 
           <div>
@@ -137,28 +139,49 @@
           </div>
         </div>
 
-          <div class = "box4">
-            <div class = "box4-text">
-                <p class= "headertext"> Stay in the Loop </p>
-                <p class = "sign-up, box3-text"> Sign up with your email address to receive news and updates of our drops, product releases, and announcements. </p>
-            </div>
-            
-              <!-- <div class = "row"> -->
-                <div class = "emailinput">
-                  <form action= "https://fabform.io/f/z7wDr-M" method="post" id = "newsletter_form">
-                      <input name="email" type="email" placeholder="Enter your email" required>
-                      <button class="button is-link, lefty, HomeButtons" type="submit">Submit</button>
-                    </form>
+        <!-- Stay in the Loop Section -->
+          <p class= "headertext"> Stay in the Loop </p>
+          <p class = "main-text text-align-center"> Sign up with your email address to receive news and updates of our drops, product releases, and announcements. </p>
+
+          <div class = "emailinput">
+            <form action= "https://fabform.io/f/z7wDr-M" method="post" id = "newsletter_form">
+                <input name="email" type="email" placeholder="Enter your email" required>
+                <button class="button is-link, lefty, HomeButtons" id = "submitbutton" type="submit">Submit</button>
+              </form>
               </div>
 
-            </div>
               
 
         </div>
-        
+
+        <!-- Footer Section -->
+       <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Connect with us </span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+        <a href = "https://www.twitter.com/3OLabs" class="btn btn-social-icon btn-twitter" id = "social_icon">
+                <span class="fa fa-twitter fa-lg"></span>
+                </a>
+        <a href = "https://www.linkedin.com/company/3-o-labs/" class="btn btn-social-icon btn-linkedin"  id = "social_icon">
+              <span class="fa fa-linkedin fa-lg" ></span></a>
+           <span  id = "social_icon" btn btn-social-icon > <i class="fa fa-envelope fa-lg"></i>
+        info@3olabs.io</span>
+
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
 
-      
+
   </div>
 
   <script src="index.js" charset="utf"></script>

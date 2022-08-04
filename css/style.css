@@ -1,3 +1,4 @@
+/*Body initiation*/
 body {
   margin: 0;
   position: absolute;
@@ -8,7 +9,100 @@ body {
   font-family:Rubik;
 }
 
+/*CSS of different text*/
+.small-text{
+    font-size: calc((1.3 - 1) * 1.2vh + 1rem);
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 5% auto auto;
+    position:  relative;
+}
 
+.main-text {
+    color: white;
+    font-size:  calc((1 - 1) * 1.2vh + 1rem);
+}
+
+/*CSS of different types of sections*/
+.paddedwhitebox {
+  padding:  10% auto 10% auto;
+  margin:  7% auto 7% auto;
+  color: black;
+}
+
+.paddedblockbox {
+  padding:  10% auto 10% auto;
+  /*margin:  7% auto 7% auto;*/
+  background-color: black;
+  /*color: white; */
+}
+
+/*For Headers, like "Core Workstreams, Stay in the loop"*/
+.headertext {
+    font-weight: 500;
+    font-size:  calc((3.5 - 1) * 1.2vh + 1rem);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    text-align: center;
+    margin: 5%;
+    color: white;
+
+}
+
+/*Small Headers like "What we do"*/
+.smallheadertext {
+  font-weight: 900;
+  font-size:  calc((2 - 1) * 1.2vh + 1rem);
+}
+
+/*Smaller header, like underneath images in "our core workstreams"*/
+#featureheader{
+    font-size:  calc((1.3 - 1) * 1.2vh + 1rem);
+    font-weight: 900;
+}
+
+/*To align text in center*/
+.text-align-center {
+  text-align: center;
+}
+
+/*Grey Button CSS*/
+.HomeButtons {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+
+}
+
+.HomeButtons:hover {
+  background-color: lightgrey;
+}
+
+/*Background image for home page*/
+.homepage_background {
+	background-image: url("../Backdrop_3.jpeg");
+  background-size: cover;
+  padding: 3%;
+
+}
+
+/*Set a box with white font*/
+.whitefontbox {
+  color: white;
+  padding: 50px 40px;
+}
+
+.expand-section{
+    white-space: pre-wrap;
+}
+
+/*Navigation Formatting*/
 .logo {
     margin-left: 2%;
     display: inline-block;
@@ -16,24 +110,6 @@ body {
     height: 5%;
 
 }
-
-.homepage_background {
-	background-image: url("../Backdrop_3.jpeg");
-  background-size: cover;
-  padding: 3%;
-
-}
-.headline {
-  font-style: normal;
-  letter-spacing: 0em;
-  text-transform: none;
-  color: white;
-  padding: 150px 40px;
-  white-space: pre-wrap;
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-  transition-duration: 0.65s;
-}
-
 #navbarToggler {
   text-align: right;
 }
@@ -51,23 +127,15 @@ body {
   text-align: right;
 }
 
-.small-text{
-    font-size: calc((1.3 - 1) * 1.2vh + 1rem);
-    line-height: 1.5;
-    font-weight: 300;
-    margin: 5% auto auto;
-    position:  relative;
-}
-
+/*Specific CSS of homepage text*/
 #slogan {
-	  font-size: calc((5.5 - 1) * 1.2vw + 1rem);
-    line-height: calc(1.7 * (1 + (1 - 5.5)/25));
+	  font-size: calc((5.5 - 1) * 1.3vw + 1rem);
+    /*line-height: calc(1.7 * (1 + (1 - 5.5)/25));*/
     font-weight: 500px;
     margin-top: 1px;
     margin: 5% auto auto;
     position:  relative;
 }
-
 
 #learn-more {
 	color:  grey;
@@ -75,13 +143,7 @@ body {
   font-size: calc((1.3 - 1) * 1.2vh + 1rem);
 }
 
-/*Second box of content*/
-.box2 {
-	padding:  10% auto 10% auto;
-	margin:  7% auto 7% auto;
-  /*color: black;*/
-}
-
+/*2 column box with image to left and text to right in black*/
 #box2-text {
   text-align:  left;
   margin:  5%;
@@ -97,42 +159,14 @@ body {
 
 }
 
-/*For Headers, like "Core Workstreams, Stay in the loop"*/
-.headertext {
-    font-weight: 500;
-    font-size:  calc((3.5 - 1) * 1.2vh + 1rem);
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-        text-align: center;
+/*CSS of centered button*/
+.CenteredButtonBox {
+  display: flex;
+    justify-content: center;
+    margin: 5%;
 
 }
-
-/*Small Headers like "What we do"*/
-.smallheadertext {
-	font-weight: 900;
-  font-size:  calc((2 - 1) * 1.2vh + 1rem);
-}
-
-/*To align text in center*/
-.text-align-center {
-  text-align: center;
-}
-
-
-.box3 {
-  	justify-content: center;
-
-}
-
-.main-text {
-    /*text-transform: none;*/
-    color: white;
-      font-size:  calc((1 - 1) * 1.2vh + 1rem);
-
-
-}
-
+/*Line Break*/
 .linebreak {
 	position: relative;
     height: .1px;
@@ -142,92 +176,33 @@ body {
     color: white;
 }
 
-
-.box4-text {
-	/*width:  100%;*/
-	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-family:  Rubik;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-    color: white;
-    /*position: relative;*/
-    /*margin: auto auto auto ;*/
-   /* white-space: pre-wrap;
-    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    transition-duration: 0.65s;*/
-    text-align: center;
-    /*background-color: black;*/
-    padding: 10%;
-
-
-}
-
-.sign-up {
-	margin-left: 20%;
-	margin-right:  20%;
-}
-
-.box3-featureimg {
+/*3 column features*/
+.featureimg {
 	width: 40%;
 	margin-bottom: 20px;
-	/*height: 60%;*/
+
 }
 
-.box3feature {
+.featurecontent {
 	padding: 3% 5%;
 	align-content: center;
 	color: white;
 	position: relative;
-        font-size:  calc((1.4 - 1) * 1.2vh + 1rem);
+        
 
 }
 
-.JoinButtonBox {
-	display: flex;
-  	justify-content: center;
-  	margin: 5%;
-}
-.joinUsButton {
-  background-color: grey;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  /*display: inline-block;*/
-  font-size: 16px;
-
-}
-
-.joinUsButton:hover {
-  background-color: lightgrey;
-
+/*Specific CSS for email submission*/
+#submitbutton {
+  margin-left: 5%;
 }
 
 .emailinput {
 	display: flex;
   justify-content: center;
-  /*margin: 5%;*/
+  margin: 5%;
 }
 
-.HomeButtons {
-  background-color: grey;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  /*display: inline-block;*/
-  font-size: 15px;
-  margin-left: 5%;
-
-}
-
-.HomeButtons:hover {
-  background-color: lightgrey;
-
-}
 
 #newsletter_form {
 	display: flex;
