@@ -63,7 +63,7 @@ body {
 }
 
 #company-name {
-    font-size: 1rem;
+    font-size: calc((1 - 1) * 1.2vh + 1rem);
     line-height: 1.5;
     font-weight: 300;
     margin: 5% auto auto;
@@ -79,48 +79,49 @@ body {
     position:  relative;
 }
 
+.headertext {
+  font-family: Rubik;
+    font-weight: 500;
+    font-size:  calc((3.5 - 1) * 1.2vh + 1rem);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+
 #learn-more {
 	color:  grey;
 	position:  relative;
+  font-size: calc((1 - 1) * 1.2vh + 1rem);
 }
 
 .box2 {
-	/*width: 100%;*/
 	padding:  10% auto 10% auto;
-	/*height:  30%;*/
-	/*position:  relative;*/
 	margin:  7% auto 7% auto;
-	/*display: block;*/
 }
 
 
 .box2-img {
-	/*width: 80%;*/
 	position: relative;
 	margin:  5% auto auto 5%;
 	padding-left: 8%;
 	padding-right: 8%;
-	/*margin-right: 50px;*/
-	/*float:  left;*/
 
 }
 
 .box2-text {
 	text-align:  left;
-	/*margin-left:  40%;*/
-	/*width:  50%;*/
 	margin:  5%;
-	/*position:  relative;*/
 	padding-left: 50px;
 	font-family: Rubik;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: .03em;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: .03em;
 }
 
 #box2-header {
 	font-size:  calc((1.7 - 1) * 1.2vh + 1rem);
-	/*font-weight:  20;*/
+	font-weight: bolder;
 }
 
 
@@ -144,14 +145,6 @@ body {
 	/*background-color: black;*/
 }
 
-.headertext {
-	font-family: Rubik;
-    font-weight: 500;
-    font-size:  50px;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-}
 
 .box3-text {
 	width:  100%;
