@@ -30,7 +30,7 @@ body {
 /*CSS of different types of sections*/
 .paddedwhitebox {
   padding:  10% auto 10% auto;
-  margin:  7% auto 7% auto;
+  margin:  5% auto 5% auto;
   color: black;
 }
 
@@ -86,6 +86,10 @@ body {
   text-align: center;
 }
 
+.bottom-margin{
+  margin-bottom: 5%;
+}
+
 /*Grey Button CSS*/
 .HomeButtons {
   background-color: grey;
@@ -110,6 +114,16 @@ body {
   padding: 3%;
 
 }
+
+/*Background in Join Us page*/
+.joinus_background {
+  background-image: url("../Backdrop2.png");
+  background-size: cover;
+  padding: 3%;
+
+}
+
+
 
 /*Set a box with white font*/
 .whitefontbox {
@@ -177,6 +191,15 @@ body {
   max-width: 99%;
 
 }
+
+.diamond-img {
+  object-fit: contain;
+    position: relative;
+  /*margin:  5% auto auto 5%;*/
+  padding-left: 8%;
+  padding-right: 8%;
+  max-width: 99%;
+}
 .box2-img {
 	position: relative;
 	margin:  5% auto auto 5%;
@@ -184,6 +207,16 @@ body {
 	padding-right: 8%;
   max-width: 99%;
 
+}
+
+/*Specific CSS of JoinUS*/
+.visionaries {
+    font-size: calc((4 - 1) * 1.2vw + 1rem);
+    /*line-height: calc(1.7 * (1 + (1 - 5.5)/25));*/
+    font-weight: 500px;
+    margin-top: 1px;
+    margin: 5% auto auto;
+    position:  relative;
 }
 
 /*CSS of centered button*/
@@ -219,6 +252,7 @@ body {
 	padding: 3% 5%;
 	align-content: center;
 	position: relative;
+  margin-bottom: 3%;
         
 
 }
