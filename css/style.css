@@ -9,6 +9,11 @@ body {
   font-family:Rubik;
 }
 
+/*make white*/
+.makewhite {
+  color: white;
+}
+
 /*CSS of different text*/
 .small-text{
     font-size: calc((1.3 - 1) * 1.2vh + 1rem);
@@ -19,7 +24,6 @@ body {
 }
 
 .main-text {
-    color: white;
     font-size:  calc((1 - 1) * 1.2vh + 1rem);
 }
 
@@ -37,6 +41,12 @@ body {
   /*color: white; */
 }
 
+.centerfloatingtext {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 4%;
+}
+
 /*For Headers, like "Core Workstreams, Stay in the loop"*/
 .headertext {
     font-weight: 500;
@@ -44,10 +54,19 @@ body {
     font-style: normal;
     letter-spacing: 0em;
     text-transform: none;
-    text-align: center;
-    margin: 5%;
-    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
 
+}
+
+
+#whoweareheader {
+  text-align: left !important;
+}
+
+#whowearemargin {
+  text-align:  left;
+  margin:  5%;
 }
 
 /*Small Headers like "What we do"*/
@@ -150,6 +169,14 @@ body {
   color: black;
 }
 
+.hexagon-img {
+  position: relative;
+  /*margin:  5% auto auto 5%;*/
+  padding-left: 8%;
+  padding-right: 8%;
+  max-width: 99%;
+
+}
 .box2-img {
 	position: relative;
 	margin:  5% auto auto 5%;
@@ -183,10 +210,14 @@ body {
 
 }
 
+.whoweareimg {
+    width: 80%;
+  margin-bottom: 20px;
+}
+
 .featurecontent {
 	padding: 3% 5%;
 	align-content: center;
-	color: white;
 	position: relative;
         
 
